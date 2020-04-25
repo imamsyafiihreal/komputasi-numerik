@@ -1,0 +1,65 @@
+# Project information
+site_name: Imam Syafiih-180411100043
+site_description: A Site to publish an exercise
+site_author: imamreal
+site_url: https://imamsyafiihreal.github.io/komputasi-numerik/
+
+# Repository
+repo_name: Imam Real
+repo_url: https://github.com/imamsyafiihreal/komputasi-numerik
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2020 Imam Real'
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: blue
+    accent: blue
+  font:
+    text: Lora
+    code: Lora Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+
+
+# Customization
+extra:
+  social:
+    - type: github-alt
+      link: https://github.com/imamsyafiihreal
+
+
+# Page tree
+nav:
+  - Profil Mahasiswa: index.md
+  - Tugas 1-MacLaurin: tugas1.md
+  - Tugas 2-Linier : tugas2.md
+  - Tugas 3-Eliminasi : tugas3.md
+  - Tugas 4-Integrasi : tugas4.md
+  - Tugas 5-Richardson : tugas5.md
+  - Tugas 6-Tugas Pemrograman : tugas6.md
+
+# Extensions
+extra_javascript:
+  - 'javascripts/extra.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+    
+
